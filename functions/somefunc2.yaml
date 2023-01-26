@@ -8,8 +8,7 @@ trigger:
         - /ping2
 domains:
     - GeneratedDomain
-includes:
-    - /functions/somefunc2.go
+source: .
 execution:
     timeout: 10s
     memory: 10MB
